@@ -1,3 +1,6 @@
+iogram==3.4.1
+pytz
+python-dateutil
 fastapi
 uvicorn[standard]
 python-telegram-bot>=20.0
