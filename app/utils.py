@@ -1,5 +1,6 @@
 from datetime import datetime
 import pytz
+import os
 TZ = pytz.timezone(os.getenv("TIMEZONE","Europe/Zagreb"))
 def format_event(event):
     # event is Event instance
