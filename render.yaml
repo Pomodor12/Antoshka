@@ -1,5 +1,5 @@
 services:
-  - type: worker
+  - type: web
     name: telegram-bot
     env: python
     region: frankfurt
@@ -7,3 +7,4 @@ services:
     startCommand: "python bot.py"
     plan: free
     autoDeploy: true
+
